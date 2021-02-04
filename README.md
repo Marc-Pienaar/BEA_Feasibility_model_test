@@ -7,7 +7,7 @@ Outputs are generated in an ouput folder and a processed folder
 Quick description
 -----------------
 
-This file demonstrates a test case for the SAEON Bioenergy Atlas feasibility model. It uses theoretical biomass values for cleared invasive areas for a small subset in KwaZulu Natal, South Africa as the example.
+The BEA_model_test.py demonstrates a test case example for the SAEON Bioenergy Atlas feasibility model. It uses theoretical biomass values for cleared invasive areas for a small subset in KwaZulu Natal, South Africa as the example.
 
 The inputs (in the input directory) are: 
 
