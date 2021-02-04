@@ -1,0 +1,14 @@
+Prod_id,Energy_(MJ/kg),Ref
+Biogas,20,http://www.sgc.se/ckfinder/userfiles/files/BasicDataonBiogas2012.pdf
+Alkanes,51.8,https://neutrium.net/properties/specific-energy-and-energy-density-of-fuels/
+Electricity,0.2778,"1MJ = 0.2778 Kwh http://www.kylesconverter.com/energy,-work,-and-heat/megajoules-to-kilowatt--hours"
+Butanol,36.1,https://neutrium.net/properties/specific-energy-and-energy-density-of-fuels/
+Jet-Fuel,43,https://neutrium.net/properties/specific-energy-and-energy-density-of-fuels/
+wood_chips,12.4,https://www.forestresearch.gov.uk/tools-and-resources/biomass-energy-resources/reference-biomass/facts-figures/typical-calorific-values-of-fuels/
+pellets,16.92307692,https://www.forestresearch.gov.uk/tools-and-resources/biomass-energy-resources/reference-biomass/facts-figures/typical-calorific-values-of-fuels/
+Ethanol,29.7,https://neutrium.net/properties/specific-energy-and-energy-density-of-fuels/
+BioDiesel,45.6,https://en.wikipedia.org/wiki/Energy_density
+Liquid_Fuels,43.54,https://en.wikipedia.org/wiki/Energy_density
+Liquid_Bio-oil,15,https://www.intechopen.com/books/progress-in-biomass-and-bioenergy-production/preparation-and-characterization-of-bio-oil-from-biomass
+Gasoline,43.54,https://en.wikipedia.org/wiki/Energy_density
+Syngas,26.8,"http://biofuel.org.uk/what-is-syngas.html#:~:text=Syngas%20has%2050%25%20of%20the,of%20coal%20or%20municipal%20waste."

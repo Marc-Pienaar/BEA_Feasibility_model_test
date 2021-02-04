@@ -1,0 +1,50 @@
+Fuel,Energy Type,Density (kg/m3),Specific Density - Low(MJ/kg),Volumetric Density Low(MJ/l),Energy Density kWh/kg,CO2 Generation (kg/kg),Energy per CO2 (MJ/kg)
+Miscanthus (bale - 25% MC),Chemical,160,13,2,3.6,,
+Wood chips (30% MC),Chemical,250,12.5,3,3.5,,
+Log wood (stacked - air dry: 20% MC),Chemical,375,14.7,6,4.1,,
+Wood (solid - oven dry),Chemical,500,19,9,5.3,,
+LPG,Chemical,510,46.3,24,12.9,,
+Wood pellets,Chemical,650,17,11,4.8,,
+Heating oil,Chemical,845,42.5,36,11.8,,
+House coal,Chemical,850,27,25,8,,
+Anthracite,Chemical,"1,100",33,36,9.2,,
+Natural gas (NTP),Chemical,0.9,38.1,35.2,10.6,,
+Lithium battery,Electrochemical,,2,4,0.5,,
+Lithium air battery,Electrochemical,,9,,2.5,,
+Bagasse,Chemical,,10,,2.67,1.3,7
+Dried plants (C6H10O5)n,Chemical,,10,2,2.78,1.84,7
+Animal Dung/Manure,Chemical,,10,,2.78,,
+Chaff (Seed Casings),Chemical,,15,,4.06,,
+Wood fuel (C6H10O5)n,Chemical,,16,2.56,4.45,1.88,10
+Wood,Chemical,,16,,4.51,,
+Protein,Chemical,,17,,4.67,,
+Carbohydrates (including sugars),Chemical,,17,,4.73,,
+Pyrolysis oil,Chemical,,18,21,4.87,0.84,20.77 
+Methanol (CH3-OH),Chemical,,20,16,5.54,1.37 ,16
+Ethanol (CH3-CH2-OH),Chemical,,23,18,6.51,1.91 ,13
+Coal,Chemical,,24,,6.68,,
+EcaleneTM,Chemical,,28,23,7.9,2.03,14.02 
+Coal,Chemical,,29,40,8.15,3.59,9
+Charcoal,Chemical,,30,,8.35,3.63,8.27 
+Butanol(CH3-(CH2)3-OH),Chemical,,36,29,10.02,2.37 ,15.16 
+Fat (animal/vegetable),Chemical,,37,,10.29,,
+Fat,Chemical,,37.66,32,10.48,,
+Biodiesel,Chemical,,38,33,10.52,2.85,13
+Natural Gas,Chemical,,38,25.5,10.57,3,15
+Olive oil (C18H34O2),Chemical,,39,33,10.92,2.8,14.03 
+Sunflower oil (C18H32O2),Chemical,,39.49,33,10.99,2.81,14.04 
+Castor oil (C18H34O3),Chemical,,39.5,33,10.99,2.67,14.80 
+Algae,Chemical,,,,8,,
+Crude Oil,Chemical,,42,28,11.65,3.4,12
+"Jet fuel, Kerosene",Chemical,,43,33,11.96,,
+Gasoline,Chemical,,45,32,12.52,3.3,14
+Diesel,Chemical,,45,36,12.63,,
+Propane (including LPG),Chemical,,46,26,12.91,,
+Gasoline (petrol),Chemical,,47,34,13.13,,
+Diesel,Chemical,,48,40,13.38,3.4,14
+Ethane (CH3-CH3),Chemical,,52,24,14.44,2.93 ,17.71 
+Methane (CH4),Chemical,,55,23,15.3,2.74,20
+Hydrogen (H2),Chemical,,120,8.5,33.39,0,
+Hydrogen (compressed at 700 bar),Chemical,,123,6,34.22,,
+Uranium-235 (235U),Nuclear,,"77,000,000","1,470,700,000",21422572.18,0,68
+Uranium-235,Nuclear,,"79,500,000","1,534,000,000",22118110.24,,
