@@ -1,6 +1,8 @@
 # BioEnergy Atlas Modelling Script test example
  
 @ Main authors: Marc Pienaar (marc@saeon.ac.za, marc.pienaar@gmail.com) and Hayden Wilson (hayden@saeon.ac.za)
+Run the BEA_model_test.py file as it to see what the model does.
+Outputs are generated in an ouput folder and a processed folder 
 
 Quick description
 -----------------
