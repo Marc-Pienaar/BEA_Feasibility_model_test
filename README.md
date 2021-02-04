@@ -35,6 +35,7 @@ The model performs the following operations:
 	4) Adds these points as new vertices into the clipped road layer in order to perform routing later on  
 	
 	5) Fetches the polygon areas associated with each facility feedstock location using an unique ID attribute in each layer 
+	
 	6) Generates geopackage outputs of the facility (x,y point), its feedstock locations (x,y coordinates) and the catchment area (polygon layer)
 	
 	7) Performs a one to many routing using NetworkX Dijkstra algorithm from all the start locations to the facility (or end point)
