@@ -5,9 +5,12 @@
 Quick description
 -----------------
 
-This file demonstrates a test case for the SAEON Bioenergy Atlas feasibility model. It uses theoretical biomass values for cleared invasive areas for a small subset in KwaZulu Natal, South Africa as the example 
+This file demonstrates a test case for the SAEON Bioenergy Atlas feasibility model. It uses theoretical biomass values for cleared invasive areas for a small subset in KwaZulu Natal, South Africa as the example.
+
 The inputs (in the input directory) are: 
+
 	1) The road shapefile (BEAroads1.shp) subset from South Africa's National Geo-spatial Information (NGI), a component of Department of Rural Development and Land Reform (DRDLR) (http://www.ngi.gov.za)
+	
 	2) A polygon subset of alien invasives (KZN_resampled.shp) - an input centroid layer is generated in the script from this
 
 In addition to the input files are some standard data files (i the data directory) used by the model (also subsets in this example), these are:
