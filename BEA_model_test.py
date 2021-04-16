@@ -79,8 +79,5 @@ a2=func.run(inshape,attrs1,[1,2,14],feedstock,technology,a2+1,capacity1[1],outpu
 print();print('Running capacity 3')
 a2=func.run(inshape,attrs1,[1,2,14],feedstock,technology,a2+1,capacity1[2],outputfile,roads,inpoly,0.1)
 print()
-#Once we have run our scenarios, we process the output csv file into feasibility options
-func.process_results(outputfile)
-print()
 #print the total runtime
 print(func.print_runtime(start_time))
