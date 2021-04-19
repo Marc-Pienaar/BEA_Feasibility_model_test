@@ -1,7 +1,7 @@
 # BioEnergy Atlas Modelling Script test example
  
 @ Main authors: Marc Pienaar (marc@saeon.ac.za, marc.pienaar@gmail.com) and Hayden Wilson (hayden@saeon.ac.za)
-Run the BEA_model_test.py file to see what the model does. When the model example has run, Run the Process_feasibility_options.py file to create a simple cost of production output using user defined paramters. 
+Run the BEA_model_test.py file to see what the model does. When the model example has run, Run the Process_feasibility_options.py file to create a simple cost of production output using user defined parameters. 
 Outputs are generated in an output folder
 
 Quick description
