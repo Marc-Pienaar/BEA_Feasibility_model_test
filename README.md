@@ -1,7 +1,7 @@
 # BioEnergy Atlas Modelling Script test example
  
 @ Main authors: Marc Pienaar (marc@saeon.ac.za, marc.pienaar@gmail.com) and Hayden Wilson (hayden@saeon.ac.za)
-Run the BEA_model_test.py file to see what the model does.
+Run the BEA_model_test.py file to see what the model does. When the model example has run, Run the Process_feasibility_options.py file to create a simple cost of production output using user defined paramters. 
 Outputs are generated in an output folder
 
 Quick description
@@ -58,4 +58,8 @@ The model performs the following operations:
 
 ![Biomass_aquisition_thread_marc_piennaar](https://user-images.githubusercontent.com/50328370/115221401-eabd8a80-a109-11eb-9ace-4275af93857c.png)
 
-**Figure 3**. The biomass acquisition thread. This thread forms part of a subprocess of the biomass conversion facility location allocation thread. It determines if the new Facility location and its feedstock locations need to snap to the closest road or closet virtual road start point, in which case it maps the distance from a virtual road to the closest road. During the operation it clips various inputs files to the extent of the points created in the biomass conversion facility location allocation thread (these include roads, virtual road start and end points, and proximity raster’s for the Virtual roads and main roads). It then Adds the temporary start and end points from the the biomass conversion facility location allocation thread as new vertices in the clipped road layer in order to create a graph and perform the transport routing. Transport modelling is done using a one to many routing algorithm (Dijkstra’s algorithm) using a custom coded version of the python NetworkX package. During the run of a full set of scenarios with different technology capacities from the biomass conversion facility location allocation thread, it appends information a technology csv and writes out various shapefiles. These outputs are used in the SAEON BEA but not described in further detail here.
+**Figure 3**. The biomass acquisition thread. This thread forms part of a subprocess of the biomass conversion facility location allocation thread. It determines if the new Facility location and its feedstock locations need to snap to the closest road or closet virtual road start point, in which case it maps the distance from a virtual road to the closest road. During the operation it clips various inputs files to the extent of the points created in the biomass conversion facility location allocation thread (these include roads, virtual road start and end points, and proximity raster’s for the Virtual roads and main roads). It then Adds the temporary start and end points from the the biomass conversion facility location allocation thread as new vertices in the clipped road layer in order to create a graph and perform the transport routing. Transport modelling is done using a one to many routing algorithm (Dijkstra’s algorithm) using a custom coded version of the python NetworkX package. During the run of a full set of scenarios with different technology capacities from the biomass conversion facility location allocation thread, it appends information a technology csv and writes out various shapefiles. These outputs are used in the SAEON BEA but not described in further detail here. Below, however, is an example of the conversion costs performed in the Process_feasibility_options.py example
+
+![Biomass_conversion_cost_thread_marc_pienaar](https://user-images.githubusercontent.com/50328370/115229164-011c1400-a113-11eb-83ac-0c0c382c67d9.png)
+**Figure 4**. The biomass conversion cost thread. Calculation of cost of production.
+
